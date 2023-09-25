@@ -1,8 +1,8 @@
  # BDE and BDFE predictions of Halogenated Species 
 
-Models: Contains all GNN model as shown in the paper 
+Models: Contains all GNN model as shown in the paper where Model 1 is the initial model, Model 2 is built with additional molecules involving multiple halogen heterocycles, and Model 3 is the final model which accounts for polyhaloalkyl molecules.  
 
-Datasets: All BDE and BDFE datasets used in developing the models, testing the models.
+Datasets: All BDE and BDFE datasets used in developing the models, testing the models. This folder is further organised based on datasets used for iterative training and testing. We also have the dataset for external validation provided.
 
 
 
