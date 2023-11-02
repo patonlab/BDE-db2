@@ -1,11 +1,20 @@
  # BDE and BDFE predictions of Halogenated Species 
 
-Models: Contains all GNN model as shown in the paper 
+Models: Contains all GNN model as shown in the paper where Model 1 is the initial model, Model 2 is built with additional molecules involving multiple halogen heterocycles, and Model 3 is the final model which accounts for polyhaloalkyl molecules.  
 
+<<<<<<< HEAD
 Datasets: All BDE and BDFE datasets used in developing the models, testing the models.
 
 ## 1. Environment for BDE prediction
 Create and activate the environment. 
+=======
+Datasets: All BDE and BDFE datasets used in developing the models, testing the models. This folder is further organised based on datasets used for iterative training and testing. We also have the dataset for external validation provided.
+
+
+
+## 1. Environment for BDE prediction
+Create and activate the environment. All required python packages are wrapped in this `2D.yml` file. 
+>>>>>>> bb6abc4a5dbfb55feffc646dbe98d68632412a2c
 
 ```
 cd Example-BDE-prediction/
@@ -13,7 +22,11 @@ conda env create -f 2D.yml -n bde
 conda activate bde
 ```
 
+<<<<<<< HEAD
 ## 2. Run for BDE prediction
+=======
+## 2. Running BDE prediction
+>>>>>>> bb6abc4a5dbfb55feffc646dbe98d68632412a2c
 
 The `Example-BDE-prediction/` folder contains an example notebook `test-prediction.ipynb` where the BDE model can be loaded and utilized for BDE prediction. The SMILES of the molecules can be provided as list to the prediction model. 
 
@@ -26,4 +39,8 @@ The `Example-BDE-prediction/` folder contains an example notebook `test-predicti
   journal={ChemRxiv},
   year={2023}
 }
+<<<<<<< HEAD
 To Do: To be updated with DOI and journal.
+=======
+To Do: To be updated with DOI and journal.
+>>>>>>> bb6abc4a5dbfb55feffc646dbe98d68632412a2c
