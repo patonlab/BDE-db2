@@ -7,7 +7,7 @@ Datasets: All BDE and BDFE datasets used in developing the models, testing the m
 
 
 ## 1. Environment for BDE prediction
-Create and activate the environment. All required python packages are wrapped in this `2D.yml` file. 
+Create and activate the environment. All required python packages are wrapped in this `2D.yml` file (Linux). 
 
 ```
 cd Example-BDE-prediction/
