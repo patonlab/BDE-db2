@@ -7,7 +7,7 @@ Datasets: All BDE and BDFE datasets used in developing the models, testing the m
 
 
 ## 1. Environment for BDE prediction
-Create and activate the environment. All required python packages are wrapped in this `2D.yml` file. 
+Create and activate the environment. All required python packages are wrapped in this `2D.yml` file (Linux). 
 
 ```
 cd Example-BDE-prediction/
@@ -15,17 +15,19 @@ conda env create -f 2D.yml -n bde
 conda activate bde
 ```
 
-## 2. Running BDE prediction
+## 2. Run for BDE prediction
 
 The `Example-BDE-prediction/` folder contains an example notebook `test-prediction.ipynb` where the BDE model can be loaded and utilized for BDE prediction. The SMILES of the molecules can be provided as list to the prediction model. 
 
 
 ## 3. Citation
 ```
-@article{
-  title={Expansion of Bond Dissociation Prediction with Machine Learning to Medicinally and Environmentally Relevant Chemical Space}, 
-  author={S. V., S. S.; Kim, K.; Kim, S.; St. John, P.; Paton, R. S.,},
-  journal={ChemRxiv},
-  year={2023}
-}
-To Do: To be updated with DOI and journal.
+@article{D3DD00169E,
+author ="S. V., Shree Sowndarya and Kim, Yeonjoon and Kim, Seonah and St. John, Peter C. and Paton, Robert S.",
+title  ="Expansion of bond dissociation prediction with machine learning to medicinally and environmentally relevant chemical space",
+journal  ="Digital Discovery",
+year  ="2023",
+pages  ="-",
+publisher  ="RSC",
+doi  ="10.1039/D3DD00169E",
+url  ="http://dx.doi.org/10.1039/D3DD00169E",}
